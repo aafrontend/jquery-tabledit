@@ -162,7 +162,7 @@ if (typeof jQuery === 'undefined') {
                                 default:
                                     if(settings.columns.editable[i].length <= 2) {
                                         // Create text input element.
-                                        input = '<input class="tabledit-input ' + settings.inputClass + '" type="text" name="' + settings.columns.editable[i][1] + '" value="' + obj.text() + '" style="display: none;" disabled>';
+                                        input = '<input class="tabledit-input ' + settings.inputClass + '" type="text" name="' + settings.columns.editable[i][1] + '" value="' + text + '" style="display: none;" disabled>';
                                         break;
                                     } else {
                                         // Create select element.
